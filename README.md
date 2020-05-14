@@ -2,4 +2,4 @@
 _Source from youtube tutorial._
 
 How it looks: 
-<img src="img/UI.png" alt="add_image" width="51" height="77">
+<img src="img/UI.png" alt="add_image" width="1024" height="768">
