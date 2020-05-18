@@ -6,10 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script defer src="face-api.js"></script>
+    <script defer src="script.js"></script>
+
 </head>
-<body>
-    
+<body class="faceRecognitionBody">
+    <video id="video" width="720" height="560" autoplay muted></video>
 
 <div class="buttons">
     <button class="backButton" onclick="backToHome()">Back Home</button>
