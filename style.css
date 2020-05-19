@@ -73,7 +73,9 @@ h2 span {
     background: url('./img/bg2.jpg');
 }
 
-.backButton {
+/* Face Recognition Style */
+
+.backButtons {
     background-color: #333;
     color: white;
     padding: 16px 32px;
@@ -87,3 +89,14 @@ h2 span {
     right:    0;
     bottom:   0;
 }
+
+.faceRecognitionBody{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

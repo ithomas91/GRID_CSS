@@ -6,7 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="userAuth.js"></script>
 </head>
 <body>
     <div class="container">
@@ -14,25 +15,25 @@
           <h2><i class="fa fa-camera" style="font-size:36px"></i></h2>
           <p>Face Recognition</p>
         </div>
-        <div class="bg1">
+        <div class="bg1" onclick="updateChargeInfo()">
           <h2><i class="fas fa-battery-three-quarters"></i></h2>
-          <p>Respiration</p>
+          <p id="batteryLevel"></p>
         </div>
         <div class="bg2">
           <h2><i class="fas fa-running"></i></h2>
           <p>Miles</p>
         </div>
         <div class="bg1">
-          <h2>36 &deg;</h2>
+          <h2 id="temperature"> </h2>
           <p>Temperature</p>
         </div>
         <div class="bg1">
           <h2><i class="fas fa-bed"></i></h2>
           <p>Sleep Keep</p>
         </div>
-        <div class="bg2">
-          <h2>98 <span>bpm</span></h2>
-          <p>Heart Rate</p>
+        <div class="bg2" onclick="openAuthPage()">
+          <h2><i class="fa fa-home" style="font-size:48px;color:white"></i></h2>
+          <p>Sign In</p>
         </div>
         <div class="bg1">
           <h2>170 <span>lbs</span></h2>
